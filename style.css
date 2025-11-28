@@ -64,6 +64,7 @@ span {
   position: fixed;
   height: 100vh;
   background-color: var(--ng-nav-menu);
+  z-index: 1000;
 }
 
 
