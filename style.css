@@ -160,6 +160,8 @@ li {
   margin-left: 20%;
   width: 80%;
   height: 100px;
+  position: relative;
+  z-index: 0;
 }
 
 
@@ -660,14 +662,14 @@ li {
   }
 
   .nav-menu-activo {
-    width: 50vw;
+    width: 80vw;
     transition: .2s;
     background-color: #fff;
   }
 
 
   .nav-interface {
-    width: 40vw;
+    width: 75vw;
   }
 
   .main-interface {
